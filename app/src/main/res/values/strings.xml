@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Adapters</string>
+
+    <!-- Menu   -->
+    <string name="label_pets">Pets</string>
+    <string name="label_my_pets">My pets</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_search">Search</string>
+    <string name="label_favorites">Favorites</string>
+    <!-- Labels   -->
+    <string name="address_example" translatable="false">Cll Fake # 123 - 456  </string>
+    <string name="label_location" translatable="false">Bucaramanga, Santander</string>
+    <string name="label_email" translatable="false">mintic@2022.com</string>
+    <string name="label_sign_out">Sign Out</string>
+
+
+    <!-- TODO: Blank fragment -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+</resources>

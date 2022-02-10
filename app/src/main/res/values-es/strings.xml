@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu   -->
+    <string name="label_pets">Mascotas</string>
+    <string name="label_my_pets">Mis Mascotas</string>
+    <string name="label_profile">Perfil</string>
+    <string name="label_search">Busqueda</string>
+    <string name="label_favorites">Favoritos</string>
+    <string name="label_sign_out" >Salir</string>
+</resources>

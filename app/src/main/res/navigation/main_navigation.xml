@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/menu_my_pets">
+
+    <fragment
+        android:id="@+id/menu_my_pets"
+        android:name="com.practice.adapters.fragment.PetsFragment"
+        android:label="fragment_pets"
+        tools:layout="@layout/fragment_pets" />
+    <fragment
+        android:id="@+id/menu_adopt"
+        android:name="com.practice.adapters.fragment.AdoptPetFragment"
+        android:label="fragment_adopt_pet"
+        tools:layout="@layout/fragment_adopt_pet" />
+    <fragment
+        android:id="@+id/menu_profile"
+        android:name="com.practice.adapters.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/menu_search"
+        android:name="com.practice.adapters.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/registerPetFragment"
+        android:name="com.practice.adapters.fragment.RegisterPetFragment"
+        android:label="fragment_register_pet"
+        tools:layout="@layout/fragment_register_pet" />
+</navigation>
